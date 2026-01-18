@@ -176,7 +176,7 @@ header.sticky{
 }
 
 .rangee img{
-    width: 100%;
+    width: 275px;
     height: auto;
     transition: all .40s;
     border-radius: 5px;
@@ -202,6 +202,7 @@ header.sticky{
     position: absolute;
     right: 0;
     font-size: 20px;
+    
 }
 .heard-icon:hover{
     color: #EE1C47;
@@ -252,4 +253,93 @@ header.sticky{
     color: #111;
     text-transform: capitalize;
     margin-bottom: 2px;
+}
+
+.up-center-text{
+    text-align: center;
+    color: #111;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.update-cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+}
+.cart img{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.cart h5{
+    color: #707070;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.cart h4{
+    color: #111;
+    font-size: 17px;
+    font-weight: 600;
+}
+.cart p{
+    color: #707070;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.cart h6{
+    color: #111;
+    font-size: 13px;
+    font-weight: 500;
+}
+.contact{
+    background-color: #F3F4F6;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 1.5rem;
+}
+.firs-contact img{
+    width: 140px;
+    height: auto;
+    border-radius: 1rem;
+
+}
+.contact-info h4{
+    color: #212519;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contact-info p{
+    color: #565656;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+.contact-info p:hover{
+    color: #EE1C47;
+}
+.social-icon i{
+    color: #565656;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all .42s;
+
+}
+.social-icon i:hover{
+    transform: scale(1.3);
+}
+.end-text{
+    background-color: #edfff1;
+    text-align: center;
+    padding: 15px;
 }
